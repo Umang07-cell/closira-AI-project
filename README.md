@@ -20,7 +20,7 @@ pip install groq
 
 ### 2. Set your API key
 ```bash
-export GROQ_API_KEY=your_api_key_here
+$env:GROQ_API_KEY="your_groq_api_key_here"
 ```
 Get a free API key at: https://console.groq.com
 
