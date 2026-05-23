@@ -1,0 +1,75 @@
+{
+  "escalated": true,
+  "lead_data": {
+    "q1": {
+      "question": "Have you visited us before, or is this your first time?",
+      "answer": "first time"
+    },
+    "q2": {
+      "question": "Which treatment interests you \u2014 Botox, Fillers, or a free consultation?",
+      "answer": "botox i guess"
+    },
+    "q3": {
+      "question": "Are you looking to book soon, or still researching?",
+      "answer": "soon"
+    }
+  },
+  "escalations": [
+    {
+      "reason": "out_of_scope",
+      "trigger": "give me your web site",
+      "time": "2026-05-23 21:22:44.735377"
+    }
+  ],
+  "summary": "## 1. Customer Intent\nThe customer's intent is to book a Botox treatment at the Bloom Aesthetics Clinic. They have expressed interest in the treatment and are looking to book soon.\n\n## 2. Key Details Collected\nThe key details collected during the conversation are: \n- The customer is a first-time visitor to the clinic.\n- The customer is interested in Botox treatment.\n- The customer is looking to book the treatment soon.\n- The customer was provided with a starting price of \u00a3200 for the Botox treatment.\n\n## 3. SOP Gaps Identified\nA gap in the standard operating procedure (SOP) was identified when the customer asked for the website link, and the assistant was unable to provide it. This highlights the need for the assistant to have access to the clinic's website link or to be able to provide an alternative way for customers to book their treatments online.\n\n## 4. Recommended Next Action\nThe recommended next action is to provide the customer with a direct link to the clinic's website or to guide them through an alternative booking process. Additionally, the clinic should review their SOP to ensure that customer support assistants have access to the necessary information, such as the website link, to provide a smoother customer experience. The assistant could also follow up with the customer to confirm if they were able to book their appointment successfully.",
+  "history": [
+    {
+      "role": "user",
+      "content": "hi"
+    },
+    {
+      "role": "assistant",
+      "content": "Hello. Welcome to Bloom Aesthetics Clinic. How can I help you today?"
+    },
+    {
+      "role": "assistant",
+      "content": "Have you visited us before, or is this your first time?"
+    },
+    {
+      "role": "user",
+      "content": "first time"
+    },
+    {
+      "role": "assistant",
+      "content": "Which treatment interests you \u2014 Botox, Fillers, or a free consultation?"
+    },
+    {
+      "role": "user",
+      "content": "botox i guess"
+    },
+    {
+      "role": "assistant",
+      "content": "Are you looking to book soon, or still researching?"
+    },
+    {
+      "role": "user",
+      "content": "soon"
+    },
+    {
+      "role": "user",
+      "content": "yes"
+    },
+    {
+      "role": "assistant",
+      "content": "You can book your Botox treatment via our website or WhatsApp. We have a starting price of \u00a3200. Would you like me to guide you through the booking process?"
+    },
+    {
+      "role": "user",
+      "content": "give me your web site"
+    },
+    {
+      "role": "assistant",
+      "content": "You can find us on our website, but I don't have the exact link. You can search for \"Bloom Aesthetics Clinic\" and you should be able to find it. Alternatively, you can also reach us via WhatsApp."
+    }
+  ]
+}
